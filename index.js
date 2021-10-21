@@ -108,7 +108,8 @@ ${description}
   * ${contributing}
 
   # Questions?
-  Want to see more of my work? (Click here)[https://github.com/${github}]
+  Want to see more of my work? [Click here!](https://github.com/${github})
+
   Questions/comments/concerns? Please send an email to ${email}
   
   # Resources/Credit

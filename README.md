@@ -1,27 +1,30 @@
-# sfsdf
+# Donut
   ## Description
-ok test again
+oh so many things
 line one
 line two
-
 line three  
 
   # Links
   
-  Github: dfgfdgfdg
+  Github: https://github.com/laurelthorburn-portfolio
   
-  Deployed Site: fdgdfgdfg
+  Deployed Site: https://github.com/laurelthorburn-portfolio
   
   ## User Story
   
   ```
-   fdgfdgfdg
+   AS a user I want
+So that I can
+Because I am greedy
+
   ```
   
   ## Acceptance Criteria
   
   ```
-  dfgdfg
+  I want this to do this 
+because why not?
   ```
   
   # Website Video
@@ -30,9 +33,15 @@ line three
   
   # Website Screenshots
   
-  # Collaborators
+  # Contributing
   
-  * dfgdfg: dfgdfg
+  * Not accepting contributions at this time
+
+
+  # Questions?
+  Want to see more of my work? [Click here](https://github.com/laurelthorburn)
+  
+  Questions/comments/concerns? Please send an email to codinglaurel@gmail.com
   
   # Resources/Credit
   
