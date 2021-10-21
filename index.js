@@ -12,17 +12,17 @@ const promptUser = () => {
         message: "What is the title of your project?"
     },
     {
-        type: "editor",
+        type: "input",
         name: "description",
         message: "Please describe your project, including motivation and reason(s)."
     },
     {
-        type: "editor",
+        type: "input",
         name: "installation",
         message: "What are the installation instructions?"
     },
     {
-        type: "editor",
+        type: "input",
         name: "usage",
         message: "What are the usage instructions?"
     },
@@ -37,17 +37,17 @@ const promptUser = () => {
       message: "What is the deployed site link?"
   },
     {
-      type: "editor",
+      type: "input",
       name: "userStory",
       message: "What is the user story?"
   },
     {
-      type: "editor",
+      type: "input",
       name: "acceptanceCriteria",
       message: "What is the acceptance criteria?"
   },
     {
-        type: "editor",
+        type: "input",
         name: "contributing",
         message: "Please enter contribution instructions:"
     },
@@ -74,20 +74,38 @@ const promptUser = () => {
   ]);
 };
 
+const licenseBadge = (badge) => {
+  if (badge === "MIT License") {
+    return "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
+  }
+  if (badge === "GNU General Public License (GPL)"){
+    return ""
+  }
+  if (badge === "The Apache License"){
+    return ""
+  }
+  if (badge === "Berkley Software Distribution (BSD)"){
+    return ""
+  }
+  if (badge === "Eclipse Public License (EPL)"){
+    return ""
+  }
+}
+
 const generateHTML = ({ title, description, installation, githubLink, deployedLink, userStory, acceptanceCriteria, contributing, email, github, tests, license  }) =>
   `# ${title}
-  ## Description
+## Description
 ${description}  
 
-  # Links
+# Links
   
-  Github: ${githubLink}
+Github: ${githubLink}
   
-  Deployed Site: ${deployedLink}
+Deployed Site: ${deployedLink}
 
-  # Table of Contents
+# Table of Contents
   
-  ## User Story
+## User Story
   
   \`\`\`
 ${userStory}
@@ -119,7 +137,7 @@ ${acceptanceCriteria}
   * LINK HERE
   
   # License
-  ${license}`;
+  ${licenseBadge(license)}`; 
 
 // Bonus using writeFileSync as a promise
 const init = () => {
