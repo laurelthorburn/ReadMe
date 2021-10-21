@@ -1,30 +1,33 @@
-# Donut
+# ReadMe Generator
   ## Description
-oh so many things
-line one
-line two
-line three  
+YOU!
+Line one
+Line Two 
+Line Three  
 
   # Links
   
-  Github: https://github.com/laurelthorburn-portfolio
+  Github: https://github.com/IDK
   
-  Deployed Site: https://github.com/laurelthorburn-portfolio
+  Deployed Site: https://github.com/IDK
+
+  # Table of Contents
   
   ## User Story
   
   ```
-   AS a user I want
-So that I can
-Because I am greedy
+   AS A USER I want more donuts
+So I can eat all the good things
 
   ```
   
   ## Acceptance Criteria
   
   ```
-  I want this to do this 
-because why not?
+  oh look
+an AC
+IM TOO LAZY
+
   ```
   
   # Website Video
@@ -35,12 +38,13 @@ because why not?
   
   # Contributing
   
-  * Not accepting contributions at this time
-
+  * blahhh
+blahhhhhh
+blahhhhhhhh
 
   # Questions?
-  Want to see more of my work? [Click here](https://github.com/laurelthorburn)
-  
+  Want to see more of my work? [Click here!](https://github.com/laurelthorburn)
+
   Questions/comments/concerns? Please send an email to codinglaurel@gmail.com
   
   # Resources/Credit
@@ -48,4 +52,4 @@ because why not?
   * LINK HERE
   
   # License
-  MIT
+  MIT License

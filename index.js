@@ -69,7 +69,7 @@ const promptUser = () => {
     {
         type: "list",
         name: "license", 
-        choices: ["MIT License", "GNU General Public License (GPL)", "The Apache License", "Berkley Software Distribution (BSD), Eclipse Public License (EPL)"]
+        choices: ["MIT License", "GNU General Public License (GPL)", "The Apache License", "Berkley Software Distribution (BSD)", "Eclipse Public License (EPL)"]
     },
   ]);
 };
@@ -84,17 +84,19 @@ ${description}
   Github: ${githubLink}
   
   Deployed Site: ${deployedLink}
+
+  # Table of Contents
   
   ## User Story
   
   \`\`\`
-   ${userStory}
+${userStory}
   \`\`\`
   
   ## Acceptance Criteria
   
   \`\`\`
-  ${acceptanceCriteria}
+${acceptanceCriteria}
   \`\`\`
   
   # Website Video
