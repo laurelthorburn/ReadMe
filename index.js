@@ -70,26 +70,26 @@ const promptUser = () => {
 };
 
 const generateHTML = ({ title, description, installation, github, deployedLink, userStory, acceptanceCriteria, contributing, email, tests, license  }) =>
-  `# Code-Quiz
+  `# ${title}
   ## Description
-  INSERT TEXT HERE (WHY DID YOU MAKE THIS (NOT B/C IT'S HOMEWORK)? WHAT DID YOU LEARN? WHAT DID IT SHOW YOU YOU NEED TO CONTINUE TO DEVELOP?)
-  
+${description}  
+
   # Links
   
-  Github: LINK HERE
+  Github: ${github}
   
-  Deployed Site: LINK HERE
+  Deployed Site: ${deployedLink}
   
   ## User Story
   
   ```
-  USER STORY TEXT HERE
+  ${userStory}
   ```
   
   ## Acceptance Criteria
   
   ```
-  ACCEPTANCE CRITERIA HERE
+  ${acceptanceCriteria}
   ```
   
   # Website Video
@@ -100,16 +100,14 @@ const generateHTML = ({ title, description, installation, github, deployedLink, 
   
   # Collaborators
   
-  Name/email here
+  * ${contributing}: ${email}
   
   # Resources/Credit
   
   * LINK HERE
-  * LINK HERE
-  * LINK HERE
   
   # License
-  MIT`;
+  ${license}`;
 
 // Bonus using writeFileSync as a promise
 const init = () => {
