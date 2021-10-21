@@ -69,7 +69,7 @@ const promptUser = () => {
     {
         type: "list",
         name: "license", 
-        choices: ["MIT License", "GNU General Public License (GPL)", "The Apache License", "Berkley Software Distribution (BSD)", "Eclipse Public License (EPL)"]
+        choices: ["MIT License", "IBM Public License Version 1.0", "The Apache License", "Creative Commons - CC0", "Eclipse Public License (EPL)"]
     },
   ]);
 };
@@ -78,17 +78,17 @@ const licenseBadge = (badge) => {
   if (badge === "MIT License") {
     return "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
   }
-  if (badge === "GNU General Public License (GPL)"){
-    return ""
+  if (badge === "IBM Public License Version 1.0"){
+    return "[![License: IPL 1.0](https://img.shields.io/badge/License-IPL%201.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)"
   }
   if (badge === "The Apache License"){
-    return ""
+    return "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
   }
-  if (badge === "Berkley Software Distribution (BSD)"){
-    return ""
+  if (badge === "Creative Commons - CC0"){
+    return "[![License: CC0-1.0](https://licensebuttons.net/l/zero/1.0/80x15.png)](http://creativecommons.org/publicdomain/zero/1.0/)"
   }
   if (badge === "Eclipse Public License (EPL)"){
-    return ""
+    return "[![License](https://img.shields.io/badge/License-EPL%201.0-red.svg)](https://opensource.org/licenses/EPL-1.0)"
   }
 }
 
