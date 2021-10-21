@@ -69,7 +69,7 @@ const promptUser = () => {
     {
         type: "list",
         name: "license", 
-        choices: ["MIT", "test2", "test3"]
+        choices: ["MIT License", "GNU General Public License (GPL)", "The Apache License", "Berkley Software Distribution (BSD), Eclipse Public License (EPL)"]
     },
   ]);
 };
