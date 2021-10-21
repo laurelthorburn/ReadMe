@@ -8,62 +8,62 @@ const promptUser = () => {
   return inquirer.prompt([
     {
         type: "input",
-        name: "Title",
+        name: "title",
         message: "What is the title of your project?"
     },
     {
         type: "input",
-        name: "Description",
+        name: "description",
         message: "Please describe your project, including motivation."
     },
     {
         type: "input",
-        name: "Installation",
+        name: "installation",
         message: "What are the installation instructions?"
     },
     {
         type: "input",
-        name: "Usage",
+        name: "usage",
         message: "What are the usage instructions?"
     },
     {
       type: "input",
-      name: "GitHub",
+      name: "github",
       message: "What is your github username?"
   },
     {
       type: "input",
-      name: "DeployedLink",
+      name: "deployedLink",
       message: "What is the deployed site link?"
   },
     {
       type: "input",
-      name: "UserStory",
-      message: "What is the user store?"
+      name: "userStory",
+      message: "What is the user story?"
   },
     {
       type: "input",
-      name: "AcceptanceCriteria",
+      name: "acceptanceCriteria",
       message: "What is the acceptance criteria?"
   },
     {
         type: "input",
-        name: "Contributing",
+        name: "contributing",
         message: "Please enter collaborator's name:"
     },
     {
         type: "input",
-        name: "Email",
+        name: "email",
         message: "Please enter collaborator's email address:"
     },
     {
         type: "input",
-        name: "Tests",
+        name: "tests",
         message: "Any tests?"
     },
     {
         type: "input",
-        name: "License", // i need to be a list of options
+        name: "license", // i need to be a list of options
         choices: ["test1", "test2", "test3"]
     },
   ]);
