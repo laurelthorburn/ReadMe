@@ -82,15 +82,15 @@ ${description}
   
   ## User Story
   
-  ```
-  ${userStory}
-  ```
+  \`\`\`
+   ${userStory}
+  \`\`\`
   
   ## Acceptance Criteria
   
-  ```
+  \`\`\`
   ${acceptanceCriteria}
-  ```
+  \`\`\`
   
   # Website Video
   
