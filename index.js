@@ -70,34 +70,52 @@ const promptUser = () => {
 };
 
 const generateHTML = ({ title, description, installation, github, deployedLink, userStory, acceptanceCriteria, contributing, email, tests, license  }) =>
-  `<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-  <title>Document</title>
-</head>
-<body>
-  <div class="jumbotron jumbotron-fluid">
-  <div class="container">
-    <h1 class="display-4">Hi! My name is ${title}</h1>
-    <p class="lead">I am from ${description}.</p>
-    <h3>Example heading <span class="badge badge-secondary">Contact Me</span></h3>
-    <ul class="list-group">
-      <li class="list-group-item">My GitHub username is ${github}</li>
-      <li class="list-group-item">LinkedIn: ${email}</li>
-    </ul>
-  </div>
-</div>
-</body>
-</html>`;
+  `# Code-Quiz
+  ## Description
+  INSERT TEXT HERE (WHY DID YOU MAKE THIS (NOT B/C IT'S HOMEWORK)? WHAT DID YOU LEARN? WHAT DID IT SHOW YOU YOU NEED TO CONTINUE TO DEVELOP?)
+  
+  # Links
+  
+  Github: LINK HERE
+  
+  Deployed Site: LINK HERE
+  
+  ## User Story
+  
+  ```
+  USER STORY TEXT HERE
+  ```
+  
+  ## Acceptance Criteria
+  
+  ```
+  ACCEPTANCE CRITERIA HERE
+  ```
+  
+  # Website Video
+  
+  ![INSERT IMG SHORT DESCRIPTION]( gif link here (convert mov4/webm to gif: https://cloudconvert.com/webm-to-gif) )
+  
+  # Website Screenshots
+  
+  # Collaborators
+  
+  Name/email here
+  
+  # Resources/Credit
+  
+  * LINK HERE
+  * LINK HERE
+  * LINK HERE
+  
+  # License
+  MIT`;
 
 // Bonus using writeFileSync as a promise
 const init = () => {
   promptUser()
   // Use writeFileSync method to use promises instead of a callback function
-    .then((answers) => fs.writeFileSync('index.html', generateHTML(answers)))
+    .then((answers) => fs.writeFileSync('readme.md', generateHTML(answers)))
     .then(() => console.log('Successfully wrote to index.html'))
     .catch((err) => console.error(err));
 };
