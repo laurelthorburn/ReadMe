@@ -12,24 +12,24 @@ const promptUser = () => {
         message: "What is the title of your project?"
     },
     {
-        type: "input",
+        type: "editor",
         name: "description",
-        message: "Please describe your project, including motivation."
+        message: "Please describe your project, including motivation and reason(s)."
     },
     {
-        type: "input",
+        type: "editor",
         name: "installation",
         message: "What are the installation instructions?"
     },
     {
-        type: "input",
+        type: "editor",
         name: "usage",
         message: "What are the usage instructions?"
     },
     {
       type: "input",
-      name: "github",
-      message: "What is your github username?"
+      name: "githubLink",
+      message: "What is the project's GitHub link?"
   },
     {
       type: "input",
@@ -37,20 +37,25 @@ const promptUser = () => {
       message: "What is the deployed site link?"
   },
     {
-      type: "input",
+      type: "editor",
       name: "userStory",
       message: "What is the user story?"
   },
     {
-      type: "input",
+      type: "editor",
       name: "acceptanceCriteria",
       message: "What is the acceptance criteria?"
   },
     {
-        type: "input",
+        type: "editor",
         name: "contributing",
-        message: "Please enter collaborator's name:"
+        message: "Please enter contribution instructions:"
     },
+    {
+      type: "input",
+      name: "github",
+      message: "What is your github username?"
+  },
     {
         type: "input",
         name: "email",
@@ -62,21 +67,21 @@ const promptUser = () => {
         message: "Any tests?"
     },
     {
-        type: "input",
-        name: "license", // i need to be a list of options
-        choices: ["test1", "test2", "test3"]
+        type: "list",
+        name: "license", 
+        choices: ["MIT", "test2", "test3"]
     },
   ]);
 };
 
-const generateHTML = ({ title, description, installation, github, deployedLink, userStory, acceptanceCriteria, contributing, email, tests, license  }) =>
+const generateHTML = ({ title, description, installation, githubLink, deployedLink, userStory, acceptanceCriteria, contributing, email, github, tests, license  }) =>
   `# ${title}
   ## Description
 ${description}  
 
   # Links
   
-  Github: ${github}
+  Github: ${githubLink}
   
   Deployed Site: ${deployedLink}
   
@@ -98,9 +103,13 @@ ${description}
   
   # Website Screenshots
   
-  # Collaborators
+  # Contributing
   
-  * ${contributing}: ${email}
+  * ${contributing}
+
+  # Questions?
+  Want to see more of my work? (Click here)[https://github.com/${github}]
+  Questions/comments/concerns? Please send an email to ${email}
   
   # Resources/Credit
   
@@ -113,8 +122,8 @@ ${description}
 const init = () => {
   promptUser()
   // Use writeFileSync method to use promises instead of a callback function
-    .then((answers) => fs.writeFileSync('readme.md', generateHTML(answers)))
-    .then(() => console.log('Successfully wrote to index.html'))
+    .then((answers) => fs.writeFileSync('README.md', generateHTML(answers)))
+    .then(() => console.log('Successfully wrote to README.md'))
     .catch((err) => console.error(err));
 };
 
