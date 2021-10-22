@@ -118,7 +118,7 @@ const licenseBadge = (copyright) => {
 const generateHTML = ({ title, description, installation, contributing, email, github, tests, license, usage }) =>
   `# ${title}
 
-<a name="desc"></a>
+<a name="descsection"></a>
 ## Description
 ${description}  
 
@@ -126,36 +126,36 @@ ${licenseBadge(license)}
 
 
 ## Table of Contents
-1. [ Description. ](#desc)
-2. [ Installation. ](#install)
-3. [ Usage. ](#usage)
-4. [ License. ](#license)
-5. [ Contributing. ](#contrib)
-6. [ Tests. ](#test)
-7. [ Questions. ](#questions)
+1. [ Description. ](#descsection)
+2. [ Installation. ](#installsection)
+3. [ Usage. ](#usagesection)
+4. [ License. ](#licensesection)
+5. [ Contributing. ](#contribsection)
+6. [ Tests. ](#testsection)
+7. [ Questions. ](#questionssection)
 
-<a name="install"></a>
+<a name="installsection"></a>
 ## Installation
 ${installation}
 
-<a name="usage"></a>
+<a name="usagesection"></a>
 ## Usage
 ${usage}
 
-<a name="license"></a>
+<a name="licensesection"></a>
 ## License
 ${copyrightText(license)}
 
-  <a name="contrib"></a>
+  <a name="contribsection"></a>
   # Contributing
   
   * ${contributing}
 
-  <a name="test"></a>
-  ## Tests
+  <a name="testsection"></a>
+  # Tests
   ${tests}
 
-  <a name="questions"></a>
+  <a name="questionssection"></a>
   # Questions?
   Want to see more of my work? [Click here!](https://github.com/${github})
 
