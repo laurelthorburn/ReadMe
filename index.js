@@ -27,26 +27,6 @@ const promptUser = () => {
         message: "What are the usage instructions?"
     },
     {
-      type: "input",
-      name: "githubLink",
-      message: "What is the project's GitHub link?"
-  },
-    {
-      type: "input",
-      name: "deployedLink",
-      message: "What is the deployed site link?"
-  },
-    {
-      type: "input",
-      name: "userStory",
-      message: "What is the user story?"
-  },
-    {
-      type: "input",
-      name: "acceptanceCriteria",
-      message: "What is the acceptance criteria?"
-  },
-    {
         type: "input",
         name: "contributing",
         message: "Please enter contribution instructions:"
@@ -78,7 +58,7 @@ const licenseBadge = (badge, userName) => {
   if (badge === "MIT License") {
     return `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-    Copyright <2021> <${userName}>
+    Copyright <2021>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
@@ -126,70 +106,46 @@ Copyright 2009 - 2013 Adobe Systems Incorporated. All Rights Reserved.
 
 const generateHTML = ({ title, description, installation, githubLink, deployedLink, userStory, acceptanceCriteria, contributing, email, github, tests, license, name }) =>
   `# ${title}
-  <a name="desc"></a>
+
+<a name="desc"></a>
 ## Description
 ${description}  
 
-# Table of Contents
+## Table of Contents
 1. [ Description. ](#desc)
-2. [ License. ](#license)
-3. [ Links. ](#links)
-4. [ User Story. ](#userStory)
-5. [ Acceptance Criteria. ](#acceptance)
-6. [ Website Video. ](#video)
-7. [ Website Screenshots. ](#screenshots)
-8. [ Contributing. ](#contrib)
-9. [ Questions. ](#questions)
-10. [ Resources/Credit. ](#credit)
+2. [ Installation. ](#install)
+3. [ Usage. ](#usage)
+4. [ License. ](#license)
+5. [ Contributing. ](#contrib)
+6. [ Tests. ](#test)
+7. [ Questions. ](#questions)
+
+<a name="install"></a>
+## Installation
+${installation}
+
+<a name="usage"></a>
+## Usage
+${usage}
 
 <a name="license"></a>
-# License
+## License
   ${licenseBadge(license, name)}
 
-<a name="links"></a>
-# Links
-  
-Github: ${githubLink}
-  
-Deployed Site: ${deployedLink}
-
-<a name="userStory"></a>
-## User Story
-  
-  \`\`\`
-${userStory}
-  \`\`\`
-
-  <a name="acceptance"></a>
-  ## Acceptance Criteria
-  
-  \`\`\`
-${acceptanceCriteria}
-  \`\`\`
-  
-  <a name="video"></a>
-  # Website Video
-  
-  ![INSERT IMG SHORT DESCRIPTION]( gif link here (convert mov4/webm to gif: https://cloudconvert.com/webm-to-gif) )
-  
-  <a name="screenshots"></a>
-  # Website Screenshots
-  
   <a name="contrib"></a>
   # Contributing
   
   * ${contributing}
+
+  <a name="test"></a>
+  ## Tests
+  ${tests}
 
   <a name="questions"></a>
   # Questions?
   Want to see more of my work? [Click here!](https://github.com/${github})
 
   Questions/comments/concerns? Please send an email to ${email}
-  
-  <a name="credit"></a>
-  # Resources/Credit
-  
-  * LINK HERE
   `; 
 
 // Bonus using writeFileSync as a promise
