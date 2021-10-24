@@ -1,8 +1,8 @@
-# README Generator 
+# README Generator
 
 <a name="descsection"></a>
 ## Description
-I created this generator so I can spend more time coding the project and less time creating a readme.  I also wanted to improve my node skills and continue to grow my skills as a fullstack developer.  
+I created this generator so I can spend more time coding the project and less time creating a readme. I also wanted to improve my node skills and continue to grow my skills as a fullstack developer.  
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -18,11 +18,11 @@ I created this generator so I can spend more time coding the project and less ti
 
 <a name="installsection"></a>
 ## Installation
-Fork the repo, open the terminal, and happy typing.
+Visual Studio, Github account, ...
 
 <a name="usagesection"></a>
 ## Usage
-Open the terminal, answer questions.
+Fork repo, clone to visual studio, and happy typing
 
 <a name="licensesection"></a>
 ## License
@@ -37,7 +37,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   <a name="contribsection"></a>
 ## Contributing
   
-  * Fork, clone to visual studios, open terminal, happy typing!
+  * Fork repo, clone to visual studio, and happy coding.
 
   <a name="testsection"></a>
 ## Tests
@@ -47,5 +47,5 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 ## Questions?
   Want to see more of my work? [Click here!](https://github.com/laurelthorburn)
 
-  Questions/comments/concerns/report issues? Please send an email to codinglaurel@gmail.com
+  Questions/comments/concerns? Please send an email to codinglaurel@gmail.com
   
