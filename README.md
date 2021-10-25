@@ -19,7 +19,11 @@ The purpose of this project was to create a command-line generated, time efficie
 
 <a name="installsection"></a>
 ## Installation
-In order to access the user questions, open the terminal (right click index.js and click 'open in integrated terminal'). Answer all prompted questions until the terminal reads "Successfully wrote to README.md". In the sidebar of the current directory, open the newly generated README.md.
+* Clone the repository using <i>git clone https://github.com/laurelthorburn/ReadMe.git</i>
+* Ensure you are in the current working directory
+* Install dependencies by running <i>npm install</i> in the terminal (ctrl + j on windows). 
+* Run the project by typing <i>npm start</i> OR <i>node index.js</i> in the terminal
+
 
 <a name="usagesection"></a>
 ## Usage
