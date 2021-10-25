@@ -16,6 +16,7 @@ The purpose of this project was to create a command-line generated, time efficie
 6. [ Tests. ](#testsection)
 7. [ Questions. ](#questionssection)
 8. [ Video. ](#videosection)
+9. [ Screenshots. ](#picsection)
 
 <a name="installsection"></a>
 ## Installation
@@ -43,7 +44,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 ## Contributing
   
   * Fork the repo!
-  * Create a feature branch: <i>git checkout -b yourname-bench</i>
+  * Create a feature branch: <i>git checkout -b yourname-branch</i>
   * Commit changes using <i>git commit -m 'Your changes here'</i>
   * Push to the branch using <i>git push origin yourname-branch</i>
   * Submit a pull request and wait for it to be approved or denied.
@@ -61,3 +62,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   <a name="videosection"></a>
 ## Video
   View video: https://drive.google.com/file/d/1WloXPkNJA3bSjDiqrrdoGT2p4iOftRo6/view?usp=sharing
+
+  <a name="picsection"></a>
+  ## Screenshots
