@@ -51,7 +51,7 @@ THEN I am taken to the corresponding section of the README
 <a name="installsection"></a>
 ## Installation
 * Clone the repository using:
-<pre>git clone https://github.com/laurelthorburn/ReadMe.git <copy-button></copy-button></pre>
+<pre><textarea name="gitclone" id="textarea" cols="30" rows="10">git clone https://github.com/laurelthorburn/ReadMe.git</textarea> <copy-button target-element="#gitclone"></copy-button></pre>
 * Ensure you are in the current working directory
 * Install dependencies by running <i>npm install</i> in the terminal (ctrl + j on windows). 
 * Run the project by typing <i>npm start</i> OR <i>node index.js</i> in the terminal
