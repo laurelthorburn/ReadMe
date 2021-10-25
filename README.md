@@ -78,7 +78,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   <a name="contribsection"></a>
 ## Contributing
   
-  * Fork the repo!
+  * [Fork the repo!](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
   * Create a feature branch:
   <pre>git checkout -b yourname-branch</pre>
   * Commit changes:
