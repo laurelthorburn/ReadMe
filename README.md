@@ -1,8 +1,8 @@
-# README Generator
+# README.md Generator
 
 <a name="descsection"></a>
 ## Description
-  
+The purpose of this project was to create a command-line generated, time efficient, high-quality README.md using node.js.  The user is prompted with a series of questions that will be added to their final generated README.  Questions include app/project description, how to use the app, how to install it, how to report issues, licensing, and how to make contributions and report issues.  
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -18,7 +18,7 @@
 
 <a name="installsection"></a>
 ## Installation
-The purpose of this project was to create a command-line generated, time efficient, high-quality README.md using node.js.  The user is prompted with a series of questions that will be added to their final generated README.  Questions include app/project description, how to use the app, how to install it, how to report issues, licensing, and how to make contributions and report issues.
+Clone the repository using "git clone https://github.com/laurelthorburn/ReadMe.git" . Next, ensure you are in the current working directory. Then, install dependencies by running "npm install" in the terminal (ctrl + j on windows). Lastly, run the project by typing "npm start" OR "node index.js" in the terminal
 
 <a name="usagesection"></a>
 ## Usage
@@ -41,7 +41,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
   <a name="testsection"></a>
 ## Tests
-  None at this time
+  None at this time.
 
   <a name="questionssection"></a>
 ## Questions?
