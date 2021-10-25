@@ -51,15 +51,19 @@ THEN I am taken to the corresponding section of the README
 <a name="installsection"></a>
 ## Installation
 * Clone the repository using:
-<textarea name="gitclone" id="textarea" cols="30" rows="10"><pre>git clone https://github.com/laurelthorburn/ReadMe.git</pre></textarea> <copy-button target-element="#gitclone"></copy-button></pre>
+<pre>git clone https://github.com/laurelthorburn/ReadMe.git</pre>
 * Ensure you are in the current working directory
-* Install dependencies by running <i>npm install</i> in the terminal (ctrl + j on windows). 
-* Run the project by typing <i>npm start</i> OR <i>node index.js</i> in the terminal
+* Install dependencies by opening the terminal (ctrl + j on windows) and running:
+<pre>npm install</pre>
+* Run the project by typing the following in the terminal:
+<pre>npm start OR node index.js</pre>
 
 
 <a name="usagesection"></a>
 ## Usage
-In order to access the user questions, open the terminal (right click index.js and click 'open in integrated terminal'). Answer all prompted questions until the terminal reads "Successfully wrote to README.md". In the sidebar of the current directory, open the newly generated README.md.
+* In order to access the user questions, open the terminal (right click index.js and click 'open in integrated terminal')
+* Answer all prompted questions until the terminal reads "Successfully wrote to README.md"
+* In the sidebar of the current directory, open the newly generated README.md.
 
 <a name="licensesection"></a>
 ## License
