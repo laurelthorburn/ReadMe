@@ -18,11 +18,11 @@ The purpose of this project was to create a command-line generated, time efficie
 
 <a name="installsection"></a>
 ## Installation
-Clone the repository using "git clone https://github.com/laurelthorburn/ReadMe.git" . Next, ensure you are in the current working directory. Then, install dependencies by running "npm install" in the terminal (ctrl + j on windows). Lastly, run the project by typing "npm start" OR "node index.js" in the terminal
+In order to access the user questions, open the terminal (right click index.js and click 'open in integrated terminal'). Answer all prompted questions until the terminal reads "Successfully wrote to README.md". In the sidebar of the current directory, open the newly generated README.md.
 
 <a name="usagesection"></a>
 ## Usage
-In order to access the user questions, open the terminal (right click index.js and click 'open in integrated terminal'). Answer all prompted questions until the terminal reads "Successfully wrote to README.md". In the sidebar of the current directory, open the newly generated README.md.
+Clone the repository using "git clone https://github.com/laurelthorburn/ReadMe.git" . Next, ensure you are in the current working directory. Then, install dependencies by running "npm install" in the terminal (ctrl + j on windows). Lastly, run the project by typing "npm start" OR "node index.js" in the terminal
 
 <a name="licensesection"></a>
 ## License
