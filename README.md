@@ -2,7 +2,7 @@
 
 <a name="descsection"></a>
 ## Description
-I created this generator so I can spend more time coding the project and less time creating a readme. I also wanted to improve my node skills and continue to grow my skills as a fullstack developer.  
+  
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -18,11 +18,11 @@ I created this generator so I can spend more time coding the project and less ti
 
 <a name="installsection"></a>
 ## Installation
-Visual Studio, Github account, ...
+The purpose of this project was to create a command-line generated, time efficient, high-quality README.md using node.js.  The user is prompted with a series of questions that will be added to their final generated README.  Questions include app/project description, how to use the app, how to install it, how to report issues, licensing, and how to make contributions and report issues.
 
 <a name="usagesection"></a>
 ## Usage
-Fork repo, clone to visual studio, and happy typing
+In order to access the user questions, open the terminal (right click index.js and click 'open in integrated terminal'). Answer all prompted questions until the terminal reads "Successfully wrote to README.md". In the sidebar of the current directory, open the newly generated README.md.
 
 <a name="licensesection"></a>
 ## License
@@ -37,11 +37,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   <a name="contribsection"></a>
 ## Contributing
   
-  * Fork repo, clone to visual studio, and happy coding.
+  * First, fork the repo! Next, create a feature branch: "git checkout -b yourname-bench". Then, commit changes using "git commit -m 'Your changes here'". Push to the branch using "git push origin yourname-branch". Finally, submit a pull request and wait for it to be approved or denied.
 
   <a name="testsection"></a>
 ## Tests
-  None
+  None at this time
 
   <a name="questionssection"></a>
 ## Questions?
