@@ -79,9 +79,12 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 ## Contributing
   
   * Fork the repo!
-  * Create a feature branch: <i>git checkout -b yourname-branch</i>
-  * Commit changes using <i>git commit -m 'Your changes here'</i>
-  * Push to the branch using <i>git push origin yourname-branch</i>
+  * Create a feature branch:
+  <pre>git checkout -b yourname-branch</pre>
+  * Commit changes:
+  <pre>git commit -m 'Your changes here'</pre>
+  * Push to the branch:
+   <pre>git push origin yourname-branch</pre>
   * Submit a pull request and wait for it to be approved or denied.
 
   <a name="testsection"></a>
