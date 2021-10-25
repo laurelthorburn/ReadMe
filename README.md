@@ -19,6 +19,7 @@ The purpose of this project was to create a command-line generated, time efficie
 9. [ Questions. ](#questionssection)
 10. [ Video. ](#videosection)
 11. [ Screenshots. ](#picsection)
+12. [ Resoruces/Credit. ](#creditsection)
 
 <a name="usersection"></a>
 ## User Story
@@ -103,3 +104,13 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
   <a name="picsection"></a>
   ## Screenshots
+  Coming soon...
+
+  <a name="creditsection"></a>
+## Resources/Credit
+* https://gist.github.com/ckib16/8732561535ed766cd6b8
+* https://opensource.org/licenses/MIT
+* https://stackoverflow.com/questions/55619992/how-to-get-my-if-else-statements-to-work-properly-in-this-node-file-using-inqu
+* https://community.atlassian.com/t5/Bitbucket-questions/How-to-write-a-table-of-contents-in-a-Readme-md/qaq-p/673363
+* https://github.com/rahuldkjain/github-profile-readme-generator
+* https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba
