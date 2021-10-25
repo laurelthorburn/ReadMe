@@ -19,7 +19,7 @@ The purpose of this project was to create a command-line generated, time efficie
 9. [ Questions. ](#questionssection)
 10. [ Video. ](#videosection)
 11. [ Screenshots. ](#picsection)
-12. [ Resoruces/Credit. ](#creditsection)
+12. [ Resources/Credit. ](#creditsection)
 
 <a name="usersection"></a>
 ## User Story
