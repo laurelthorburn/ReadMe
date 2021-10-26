@@ -81,11 +81,17 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   
 1. [Fork the repo!](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
 2. Create a feature branch:
-  <pre>git checkout -b yourname-branch</pre>
+```
+git checkout -b yourname-branch
+```
 3. Commit changes:
-  <pre>git commit -m 'Your changes here'</pre>
+```
+git commit -m 'Your changes here'
+```
 4. Push to the branch:
-  <pre>git push origin yourname-branch</pre>
+```
+git push origin yourname-branch
+```
 5. Submit a pull request and wait for it to be approved or denied.
 
   <a name="testsection"></a>
