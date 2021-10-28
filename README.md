@@ -116,7 +116,9 @@ git push origin yourname-branch
 
   <a name="picsection"></a>
   ## Screenshots
-  Coming soon...
+  ![Screenshot of ReadMe](./Media/screenshot1.png)
+  ![Screenshot of ReadMe](./Media/screenshot2.png)
+  ![Screenshot of ReadMe](./Media/screenshot3.png)
 
   <a name="creditsection"></a>
 ## Resources/Credit
